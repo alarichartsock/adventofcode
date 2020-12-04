@@ -1,1 +1,0 @@
-Everything in this directory isn't my code, it's other people's solutions that I'm testing out to expose myself to other ways of thinking

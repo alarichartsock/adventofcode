@@ -3,10 +3,9 @@ import time
 import re
 
 start = time.time()  
-f = open("input.txt",'r').read().split('\n\n') # turns file input into a list I can work with
+f = open("input.txt",'r').read().split("\n\n")
 for i in range(len(f)):
-     f[i] = f[i].replace("\n"," ")
-     f[i] = f[i].split(" ")
+     f[i] = f[i].split()
      for j in range(len(f[i])):
           f[i][j] = f[i][j].split(":")
 
